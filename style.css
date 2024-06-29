@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(./imagens/back2.jpg);
+    background-color: #0c1022;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ h1 {
 }
 
 .iniciaJogo {
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: #0e1224fb;
     font-size: 2rem;
     padding: 20px;
     color: white;
@@ -43,20 +43,22 @@ h1 {
     border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.5s ease; /* Apenas a transformação está no estado normal */
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.548);
+    transform-origin: center center; /* Define o ponto de transformação no centro */
+    backface-visibility: hidden; /* Evita artefatos visuais durante a transformação */
 }
 
 .iniciaJogo:hover {
-    background-color: white;
+    background-color: lightblue;
     color: black;
     border: 1px solid black;
+    
 }
 
 table {
     color: lightblue;
     border: none;
-    background-color: rgba(0, 0, 0, 0.562);
     display: none;
     text-align: center;
     font-size: 5rem;
@@ -69,6 +71,7 @@ table {
     border: 3px solid lightblue;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.397);
+    transition: background-color 0.5s ease; /* Transição apenas da cor de fundo */
 }
 
 .bloco:hover, .bloco:focus {
