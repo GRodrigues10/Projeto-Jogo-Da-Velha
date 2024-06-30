@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    
 }
 
 h1 {
@@ -22,6 +23,8 @@ h1 {
     text-shadow: 3px 3px 5px black;
     position: relative;
     top: 50px;
+    margin-bottom: 10px;
+    
 }
 
 .container {
@@ -29,7 +32,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 80%;
     width: 100%;
     overflow: hidden;
 }
@@ -72,6 +75,7 @@ table {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.397);
     transition: background-color 0.5s ease; /* Transição apenas da cor de fundo */
+    transition: 0.3s ease;
 }
 
 .bloco:hover, .bloco:focus {

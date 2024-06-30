@@ -1,0 +1,110 @@
+@media screen and (max-width:320px) {
+
+    h1{
+        font-size: 1.6rem;
+    }
+    .iniciaJogo{
+        font-size: 0.8rem;
+    }
+
+    table {
+        font-size: 3rem;
+    }
+
+    .bloco {
+        width: 70px;
+        height: 70px;
+        transition: 0.3s ease;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:321px) and (max-width:468px) {
+    h1{
+        font-size: 3rem;
+    }
+    .iniciaJogo{
+        font-size: 1rem;
+    }
+
+    table {
+        font-size: 3rem;
+    }
+
+    .bloco {
+        width: 90px;
+        height: 90px;
+        transition: 0.3s ease;
+    }
+}
+
+
+@media screen and (min-width:469px) and (max-width:768px) {
+
+    h1{
+        font-size: 3.5rem;
+    }
+    .iniciaJogo{
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 4rem;
+    }
+
+    .bloco {
+        width: 100px;
+        height: 100px;
+        transition: 0.3s ease;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    h1{
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+    .iniciaJogo{
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 5rem;
+    }
+
+    .bloco {
+        width: 125px;
+        height: 125px;
+        transition: 0.3s ease;
+    }
+
+}
+
+ @media screen and (width:1024px){
+
+    h1{
+        font-size: 4rem;
+        position: relative;
+        top: 10px;
+    }
+    .iniciaJogo{
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 5rem;
+    }
+
+    .bloco {
+        width: 125px;
+        height: 125px;
+        transition: 0.3s ease;
+    }
+
+} 
+

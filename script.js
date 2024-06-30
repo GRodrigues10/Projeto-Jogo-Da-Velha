@@ -52,7 +52,7 @@ function jogar(celula) {
         verificarVencedor();
     }
 }
-
+ 
 function reiniciarJogo() {
     const bloco = document.querySelectorAll('.bloco');
     btn.style.display = 'block';
